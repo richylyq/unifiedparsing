@@ -1,5 +1,16 @@
 # Unified Perceptual Parsing for Scene Understanding
 
+My Setup Details
+
+1. Run this command to set up conda environment
+conda create --name upp python=3.6
+
+2. Install these libraries
+torch==1.0.1
+torchvision==0.2.2
+scipy==1.1.0
+ninja
+
 This is a pyTorch implementation of Unified Perceptual Parsing network on Broden+ dataset and ADE20K dataset. This work is published at ECCV'18 [Unified Perceptual Parsing for Scene Understanding](https://arxiv.org/abs/1807.10221), to which [Tete Xiao](http://tetexiao.com), [Yingcheng Liu](https://github.com/firstmover), and [Bolei Zhou](http://people.csail.mit.edu/bzhou/) contribute equally.
 
 Broden+ dataset is the standardized Broden dataset, previously proposed in [Network Dissection](https://github.com/CSAILVision/NetDissect). ADE20K dataset is a recent image dataset for [scene parsing](https://github.com/CSAILVision/semantic-segmentation-pytorch). 
